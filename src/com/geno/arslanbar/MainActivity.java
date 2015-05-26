@@ -7,11 +7,10 @@ import android.widget.*;
 
 public class MainActivity extends Activity
 {
-    /** Called when the activity is first created. */
-    @Override
-    public void onCreate(Bundle savedInstanceState)
+	@Override
+	public void onCreate(Bundle savedInstanceState)
 	{
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-    }
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+	}
 }
